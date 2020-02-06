@@ -3,9 +3,6 @@
   "version": "0.0.1",
   "description": "Web application generating interactive and highly customizable maps",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \\\"no tests yet\\\""
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Azgaar/Fantasy-Map-Generator.git"
@@ -23,5 +20,14 @@
   "bugs": {
     "url": "https://github.com/Azgaar/Fantasy-Map-Generator/issues"
   },
-  "homepage": "https://github.com/Azgaar/Fantasy-Map-Generator#readme"
+  "homepage": "https://github.com/Azgaar/Fantasy-Map-Generator#readme",
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-i-am-meticulous": "^11.0.0"
+  },
+  "scripts": {
+    "lint": "eslint modules",
+    "lint-fix": "eslint modules --fix",
+    "test": "echo \"no tests yet\""
+  }
 }
