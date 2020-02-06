@@ -1,0 +1,27 @@
+{
+  "name": "fantasy-map-generator",
+  "version": "0.0.1",
+  "description": "Web application generating interactive and highly customizable maps",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \\\"no tests yet\\\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Azgaar/Fantasy-Map-Generator.git"
+  },
+  "keywords": [
+    "procedural-generation",
+    "map-generation",
+    "javascript",
+    "mapmaker",
+    "cartography",
+    "dungeons-and-dragons"
+  ],
+  "author": "Azgaar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Azgaar/Fantasy-Map-Generator/issues"
+  },
+  "homepage": "https://github.com/Azgaar/Fantasy-Map-Generator#readme"
+}
